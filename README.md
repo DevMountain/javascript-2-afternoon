@@ -1,13 +1,13 @@
 Object Fiddles
 ==============
-* **meObject** http://jsfiddle.net/5Ua3r/
-* **favoriteThings** http://jsfiddle.net/zCcnT/
-* **backPack** http://jsfiddle.net/FAKH4/
-* **firstLoop** http://jsfiddle.net/Lgf3G/
-* **album** http://jsfiddle.net/FP5PL/
-* **ifInObj** http://jsfiddle.net/HLGZU/
-* **userObj** http://jsfiddle.net/VkvMV/
-* **anotherUserObj** http://jsfiddle.net/47SUN/
-* **firstMethod** http://jsfiddle.net/eGyLD/
-* **theSquad** http://jsfiddle.net/j9rdQ/
-* **deepBreathe** http://jsfiddle.net/suH42/5/
+* **meObject** http://jsfiddle.net/Kajdav/s9pqp005/
+* **favoriteThings** http://jsfiddle.net/Kajdav/1v85n4ak/
+* **backPack** http://jsfiddle.net/Kajdav/eqzLctco/
+* **firstLoop** http://jsfiddle.net/Kajdav/41Lxv3dz/
+* **album** http://jsfiddle.net/Kajdav/x3p7Lc3c/
+* **ifInObj** http://jsfiddle.net/Kajdav/mkp3cjy9/
+* **userObj** http://jsfiddle.net/Kajdav/ave8jqu0/
+* **anotherUserObj** http://jsfiddle.net/Kajdav/f1a64u31/
+* **firstMethod** http://jsfiddle.net/Kajdav/a94ymoyk/
+* **theSquad** http://jsfiddle.net/Kajdav/oeddrxgt/
+* **deepBreathe** http://jsfiddle.net/Kajdav/8Ld9yeg1/
