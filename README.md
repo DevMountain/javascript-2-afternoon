@@ -10,4 +10,4 @@ Object Fiddles
 * **anotherUserObj** http://jsfiddle.net/47SUN/
 * **firstMethod** http://jsfiddle.net/eGyLD/
 * **theSquad** http://jsfiddle.net/j9rdQ/
-* **deepBreathe** https://github.com/ryancomte/object-fiddles.git
+* **deepBreathe** http://jsfiddle.net/suH42/24/
