@@ -11,3 +11,6 @@ Object Fiddles
 * **firstMethod** http://jsfiddle.net/Kajdav/a94ymoyk/
 * **theSquad** http://jsfiddle.net/Kajdav/oeddrxgt/
 * **deepBreathe** http://jsfiddle.net/Kajdav/8Ld9yeg1/
+
+
+//Word.
