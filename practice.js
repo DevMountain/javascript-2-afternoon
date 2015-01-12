@@ -34,11 +34,10 @@
 
 
 
-
-/*Create an empty Object called backPack. Now, create a variable called 'item' and
-set it equal to firstPocket. Now, using bracket notation, add whatever 'item' represents
-as a property (or key) on the backPack object and set it's value equal to 'chapstick'.
-Now using dot notation add a key (or property) to your backPack object that is named color,
+/*Create an empty Object called backPack. Now, create a variable called item and
+set it equal to the string 'firstPocket'. Now, using bracket notation, add a 'firstPocket'
+key (or property) to backPack, using the item variable. Now using dot notation,
+add a key (or property) to your backPack object that is named color, 
 with the value being the color of your backpack. */
 
   //Code here
@@ -47,7 +46,7 @@ with the value being the color of your backpack. */
 
   //Code here
 
-/*You probably noticed that it just alerted [Object Object].
+/*You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. */
 
@@ -266,7 +265,7 @@ of Data is to have an Array full of objects. */
 /*Now add three user objects to your users array. Each user object should contain the
 following properties. name, email, password, username.*/
 
-//include this object as one of your indices in your array.
+//include this as one of the objects in your array.
 var user1 = {
     name: 'Tyler McGinnis',
     email: 'tylermcginnis33@gmail.com',
