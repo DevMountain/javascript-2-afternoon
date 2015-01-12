@@ -34,11 +34,13 @@
 
 
 
-/*Create an empty Object called backPack. Now, create a variable called item and
-set it equal to the string 'firstPocket'. Now, using bracket notation, add a 'firstPocket'
-key (or property) to backPack, using the item variable. Set the value of that key
-to be 'chapstick' Now using dot notation, add a key (or property) to your \
-backPack object that is named color, with the value being the color of your backpack. */
+/*Create an empty Object called backPack. Now, create a variable called 'item'
+and set it equal to the string 'firstPocket'. Using bracket notation,
+add a 'firstPocket' key (or property) to backPack, using 'item'.
+Set the value of that key to 'chapstick'.
+
+Using dot notation, add another key (or property) to your backPack object
+that is named color, with the value being the color of your backpack. */
 
   //Code here
 
