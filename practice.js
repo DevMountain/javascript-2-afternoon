@@ -44,9 +44,9 @@ Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. */
 
   //Code here
-  var backPack = new Object ();
+  var backPack = {}
   var item = "firstPocket"
-  backPack[firstPocket] = "chapstick"
+  backPack[item] = "chapstick"
   backPack[color] = "red"
 
 
@@ -183,6 +183,8 @@ loopfunc(user);
 //Once you get your truthy Object, Change the remaining values in the object to be specific to you (name: 'your name', username: 'your username'), rather than my information.
 
   //Code Here
+user.name = "ryan brudnicki";
+user.username = "guybrud";
 
 
 
@@ -207,12 +209,14 @@ var user = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
+  user.name = "Tyler S. McGinnis";
+  user.email = "tyler.mcginnis@devmounta.in";
 
 //Now call the sayName method that's on the user object which will alert the users email
 
   //Code Here
 
-
+user.sayName();
 
 
 //NEXT PROBLEM
@@ -221,20 +225,27 @@ var user = {
 
 
 //Create an empty object called methodCollection.
-
+var methodCollection = {};
   //Code Here
+
 
 /*Now add two methods (functions that are properties on objects) to your methodCollection
 object. One called 'alertHello' which alerts 'hello' and another method called logHello
  which logs 'hello' to the console. */
-
+methodCollection.alertHello = function() {
+  alert("hello");
   //Code Here
+};
+methodCollection.logHello = function() {
+  console.log("hello");
+};
 
 //Now call your alertHello and logHello methods.
 
   //Code Here
 
-
+methodCollection.alertJello();
+methodCollection.logJello()
 
 
 //NEXT PROBLEM
@@ -273,7 +284,11 @@ array with those four objects. After that console.log the length of the Array an
 sure that it's equal to 4. */
 
   //Code Here
-
+var filler = function(arr, ob1, ob2, ob3, ob4) {
+   arr.push(ob1, ob2, ob3, ob4);   
+};
+filler(devMountainEmployees, tyler, cahlan, ryan, colt);
+console.log(devMountainEmployees.length);
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absense to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
 
@@ -281,6 +296,17 @@ Loop through your devMountainEmployees until you find cahlan, then remove him fr
 
 
 
+var remove = function (arr) {
+    for (var i = 0; i < arr.length; i++) {
+        for (var prop in arr) {
+            if (arr[i] === cahlan) {
+                arr.splice(i, 1);
+            }
+        }
+    }
+};
+remove(devMountainEmployees);
+console.log(devMountainEmployees);
 
 //NEXT PROBLEM
 
@@ -318,6 +344,7 @@ var data = [
 of Data is to have an Array full of objects. */
 
 //Create an empty array called users.
+var users = []
 
   //Code Here
 
@@ -333,6 +360,38 @@ var user1 = {
 }
 
 //Your Code Here
+var users = []
+
+var user1 = {
+    name: 'Tyler McGinnis',
+    email: 'tylermcginnis33@gmail.com',
+    password: 'iLoveJavaScript',
+    username: 'infiniateLoop'
+};
+var user2 = {
+    name: "ryan brunicki",
+    email: "guybrud@gmail.com",
+    password: "help me",
+    username: "tooEasy"
+};
+var user3 = {
+    name: "taylor miller",
+    email: "tmiller@gmail.com",
+    password: "easypeasy",
+    username: "gotcha"
+};
+var user4 = {
+    name: "john smith",
+    email: "jswizzle@yahoo.com",
+    password: "toogood",
+    username: "imagetcha"
+};
+
+users.push(user1);
+users.push(user2);
+users.push(user3);
+users.push(user4);
+console.log(users);
 
 /*Now you have a very common data structure. Twitter is a good use case.
 It's easy to imagine that your followers list on Twitter is an Array full or objects
@@ -345,6 +404,17 @@ Once you find the particular indice he's located in, delete him from the array.*
   //Code Here
 
 //The activity we just did is very much how data works in 'the real world'.
+var remove = function (arr) {
+    for (var i = 0; i < arr.length; i++) {
+        
+        if (arr[i].email === "tylermcginnis33@gmail.com") {
+            arr.splice(i, 1);
+        }
+    }
+    
+};
+remove(users);
+console.log(users);
 
 
 
