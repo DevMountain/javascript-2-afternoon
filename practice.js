@@ -140,9 +140,14 @@ loop();
     utah: 77000,
     alaska: 17
   };
-  var population = function() {
-    
-  }
+  var population = function(obj) {
+    for (var prop in obj) {
+      if (obj[prop] > 30000) {
+        alert(obj[prop]);
+      }
+    }
+  };
+  population(states);
 
 
 
@@ -163,8 +168,18 @@ var user = {
 /*Above you're given a user object. Loop through the user object checking to make sure
 that each value is truthy. If it's not truthy, remove it from the object. */
 
-  //Code Here
+var loopfunc = function (obj) {
+    for (var prop in obj) {
+        if (!user[prop]) {
+            delete obj[prop];
+        } else alert(obj[prop]);
+    }
+};
+loopfunc(user);
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 //Once you get your truthy Object, Change the remaining values in the object to be specific to you (name: 'your name', username: 'your username'), rather than my information.
 
   //Code Here
