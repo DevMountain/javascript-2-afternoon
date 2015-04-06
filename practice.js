@@ -59,6 +59,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. */
 
   //Code here
+  console.log(backPack);
 
 
 
@@ -76,7 +77,19 @@ Instead, console.log your whole backPack object and then check out the console. 
 
   //Code Here
 
-
+var me = {
+    name: "ryan",
+    height: "too tall",
+    gender: "male",
+    married: "not",
+    hairColor: "blond"
+};
+var looper = function() {
+   for (var prop in me) {
+        console.log(me[prop]);
+    }
+};
+looper();
 
 
 //NEXT PROBLEM
@@ -87,12 +100,25 @@ Instead, console.log your whole backPack object and then check out the console. 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
+ var album = {
+    firstSong: "4:27",
+    songTwo: "45:30",
+    song3: "3:45",
+    fourthSong: "8:60",
+    lastSong: "1:20"
+  };
+
 
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
 
-
+var loop = function() {
+  for (var prop in album) {
+    alert(prop);
+  }
+};
+loop();
 
 
 //NEXT PROBLEM
@@ -107,6 +133,16 @@ Instead, console.log your whole backPack object and then check out the console. 
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
   //Code Here
+  var states = {
+    california: 1700000,
+    kansas: 1700,
+    virginia: 30001,
+    utah: 77000,
+    alaska: 17
+  };
+  var population = function() {
+    
+  }
 
 
 
