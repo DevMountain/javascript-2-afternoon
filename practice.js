@@ -233,16 +233,26 @@ var user = {
 //Create an empty object called methodCollection.
 
   //Code Here
+  var methodCollection = {};
 
 /*Now add two methods (functions that are properties on objects) to your methodCollection
 object. One called 'alertHello' which alerts 'hello' and another method called logHello
  which logs 'hello' to the console. */
 
   //Code Here
+  methodCollection.alertHello = function(){
+    alert('Hello');
+  };
+
+  methodCollection.logHello = function(){
+    console.log('hello');
+  };
 
 //Now call your alertHello and logHello methods.
 
   //Code Here
+  methodCollection.alertHello();
+  methodCollection.logHello();
 
 
 
@@ -283,11 +293,21 @@ array with those four objects. After that console.log the length of the Array an
 sure that it's equal to 4. */
 
   //Code Here
+  devMountainEmployees[0] = tyler;
+  devMountainEmployees[1] = cahlan;
+  devMountainEmployees[2] = ryan;
+  devMountainEmployees[3] = colt;
 
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absense to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
 
   //Code Here
+  for(var i = 0; i < devMountainEmployees.length; i++){
+    if(devMountainEmployees[i].name === 'Cahlan'){
+      devMountainEmployees.splice(i, 1);
+    }
+  }
+
 
 
 
