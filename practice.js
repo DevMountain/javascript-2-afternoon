@@ -179,49 +179,13 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 
 
-
 //NEXT PROBLEM
 
 
 
-
-var devMountainEmployees = [];
-
-var tyler = {
-    name: 'Tyler',
-    position: 'Lead Instructor/Engineer',
-    spiritAnimal: 'Honey Badger'
-};
-
-var cahlan = {
-    name: 'Cahlan',
-    position: 'CEO',
-    spiritAnimal: 'butterfly'
-};
-
-var ryan = {
-    name: 'Ryan',
-    position: 'Marketing',
-    spiritAnimal: 'fox'
-};
-
-var colt = {
-    name: 'Colt',
-    position: 'Everything really',
-    spiritAnimal: 'Young Male Horse'
-}
-
-/*Above you're given an empty array with four objects. Fill the devMountainEmployees
-array with those four objects. After that console.log the length of the Array and make
-sure that it's equal to 4. */
+// Create a function called MakePerson which takes in name, birthday, ssn as its parameters and returns a new object with all of the information that you passed in.
 
   //Code Here
-
-/*Now let's say Cahlan has a mental breakdown and has to take a leave of absense to 'find himself'.
-Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
-
-  //Code Here
-
 
 
 
@@ -229,65 +193,21 @@ Loop through your devMountainEmployees until you find cahlan, then remove him fr
 
 
 
-
-/*Now we're going to combine what we've learned today (objects) with what we learned
-yesterday (arrays). Yeah, take a deep breathe. You're ready for this, promise.
-Let's think back to our itunes example (tylermcginnis.com/itunes).
-Notice that when you type in an artist name, iTunes gives us back a LOT of data.
-What they're really giving us is an Array full of Objects. It probably looks something
-like this. */
-
-var data = [
-    {
-        artist: 'shakira',
-        album: 'hips don\'t lie',
-        tracks: 16,
-    },
-    {
-        artist: 'shakira',
-        album: 'mariposa',
-        tracks: 12,
-    },
-    {
-        artist: 'shakira',
-        album: 'greatest hits',
-        tracks: 19
-    }
-];
-
-
-
-/*A very clean way to pass around large LISTS (arrays) of COLLECTIONS (objects)
-of Data is to have an Array full of objects. */
-
-//Create an empty array called users.
+// Create a function called MakeCard which takes in all the data it needs to make a Credit Card object and returns that object so that whenever you invoke MakeCard, you get a brand new credit card.
 
   //Code Here
+  
+  
+  
+//NEXT PROBLEM
 
-/*Now add three user objects to your users array. Each user object should contain the
-following properties. name, email, password, username.*/
 
-//include this as one of the objects in your array.
-var user1 = {
-    name: 'Tyler McGinnis',
-    email: 'tylermcginnis33@gmail.com',
-    password: 'iLoveJavaScript',
-    username: 'infiniateLoop'
-}
 
-//Your Code Here
-
-/*Now you have a very common data structure. Twitter is a good use case.
-It's easy to imagine that your followers list on Twitter is an Array full or objects
-and those objects contain properties about the specific person you follow.*/
-
-/*Now let's say that Tyler decided to delete his account. Loop through your array of
-objects until you find Tyler's account (use tylermcginnis33@gmail.com to find him).
-Once you find the particular indice he's located in, delete him from the array.*/
+/* As of this point you should have a MakePerson and a MakeCard function which returns you either a person or a credit card object.
+   Now, create a bindCard function that takes in a person object as its first parameter and a creditcard object as its second parameter.
+   Have bindCard merge the two parameters together into a new object which contains all the properties from the person as well as the creditcard.
+*/
 
   //Code Here
-
-//The activity we just did is very much how data works in 'the real world'.
-
 
 
