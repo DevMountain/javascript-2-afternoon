@@ -62,7 +62,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 
 
-//Create another 'me' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
+//Create an 'alsoMe' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
   //Code Here
 
@@ -110,7 +110,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 
 
-var user = {
+var user1 = {
     name: 'Tyler McGinnis',
     email: null,
     pwHash: 'U+Ldlngx2BYQk',
@@ -135,7 +135,7 @@ that each value is truthy. If it's not truthy, remove it from the object. */
 
 
 
-var user = {
+var user2 = {
         name: 'Tyler McGinnis',
         age: 24,
         pwHash: 'U+Ldlngx2BYQk',
