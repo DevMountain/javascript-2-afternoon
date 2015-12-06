@@ -13,7 +13,7 @@
 
 
 
-//Make a 'favoriteThings' object that contains the following properties: band, food, person, book, movie, holiday. Have the values to those properties be your favorite thing in that category.
+//Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
 
   //Code here
 
@@ -78,7 +78,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 
 
-//Create an Object called 'album' with 5 properties named different song titles that you make up, with the values being the length of each song.
+//Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
 
