@@ -217,28 +217,29 @@ describe('practice.js', function () {
 	})
 	
 	describe('bindCard', function () {
+		var person = MakePerson('Tester', 'Nov 1', '123456789');
+		var MakeCard = jasmine.createSpy('MakeCard').and.returnValue({
+			expirationDate: 'Dec2016',
+			cardNumber: '1234123412341234',
+			securityCode: '321'
+		});
+		var card = MakeCard();
+
 		it('should exist', function () {
 			expect(bindCard).toBeDefined();
 		})
 		it('should return an object', function () {
-			expect(bindCard()).toEqual(jasmine.any(Object));
+			expect(bindCard(person, card)).toEqual(jasmine.any(Object));
 		})
 		it('should combine the properties of a person and a card', function () {
-			var person = MakePerson('Tester', 'Nov 1', '123456789');
-			var MakeCard = jasmine.createSpy('MakeCard').and.returnValue({
-				expDate: 'Dec2016',
-				cardNo: '1234123412341234'
-			})
-			var card = MakeCard();
-			var bound = bindCard(person, card);
-			var props = Object.keys(person).concat(Object.keys(card));
-			var hasProps = true;
-			for (var key in bound) {
-				if (props.indexOf(key) === -1) {
-					hasProps = false;
-				}
-			}
-			expect(hasProps).toBe(true);
+			var keys = Object.keys(bindCard(person, card));
+
+			expect(keys).toContain('name');
+			expect(keys).toContain('birthday');
+			expect(keys).toContain('ssn');
+			expect(keys).toContain('expirationDate');
+			expect(keys).toContain('cardNumber');
+			expect(keys).toContain('securityCode');
 		})
 	})
 
