@@ -176,23 +176,23 @@ describe('practice.js', function () {
 			})
 		})
 	})
-	
-	describe('MakePerson', function () {
+
+	describe('makePerson', function () {
 		it('should exist', function () {
-			expect(MakePerson).toBeDefined();
+			expect(makePerson).toBeDefined();
 		})
 		it('should return an object', function () {
-			expect(MakePerson()).toEqual(jasmine.any(Object));
+			expect(makePerson()).toEqual(jasmine.any(Object));
 		})
-		
+
 		describe('return object', function () {
 			var returnObject = {};
 			beforeEach(function () {
-				returnObject = MakePerson('Tester', 'Nov 1', '123456789');
+				returnObject = makePerson('Tester', 'Nov 1', '123456789');
 			})
 			it('should have 3 keys named "name", "birthday" and "ssn"', function () {
 				var numberOfKeys = Object.keys(returnObject).length;
-				
+
 				expect(numberOfKeys).toBe(3);
 				expect(returnObject.hasOwnProperty('name')).toBe(true);
 				expect(returnObject.hasOwnProperty('birthday')).toBe(true);
@@ -204,26 +204,26 @@ describe('practice.js', function () {
 				expect(returnObject.ssn).toBe('123456789');
 			})
 		})
-		
+
 	})
-	
-	describe('MakeCard', function () {
+
+	describe('makeCard', function () {
 		it('should exist', function () {
-			expect(MakeCard).toBeDefined();
+			expect(makeCard).toBeDefined();
 		})
 		it('should return an object', function () {
-			expect(MakeCard()).toEqual(jasmine.any(Object));
+			expect(makeCard()).toEqual(jasmine.any(Object));
 		})
 	})
-	
+
 	describe('bindCard', function () {
-		var person = MakePerson('Tester', 'Nov 1', '123456789');
-		var MakeCard = jasmine.createSpy('MakeCard').and.returnValue({
+		var person = makePerson('Tester', 'Nov 1', '123456789');
+		var makeCard = jasmine.createSpy('makeCard').and.returnValue({
 			expirationDate: 'Dec2016',
 			cardNumber: '1234123412341234',
 			securityCode: '321'
 		});
-		var card = MakeCard();
+		var card = makeCard();
 
 		it('should exist', function () {
 			expect(bindCard).toBeDefined();
