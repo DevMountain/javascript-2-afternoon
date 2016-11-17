@@ -142,7 +142,7 @@ var user2 = {
         email: 'tylermcginnis33@gmail.com',
         birthday: '05/02/1990',
         username: 'tylermcginnis33',
-        sayName: function(){
+        sayEmail: function(){
             alert('Email is : ' + this.email);
         }
 };
@@ -151,7 +151,7 @@ var user2 = {
 
   //Code Here
 
-//Now call the sayName method that's on the user object which will alert the users email
+//Now call the sayEmail method that's on the user object which will alert the users email
 
   //Code Here
 
