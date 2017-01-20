@@ -55,10 +55,10 @@ describe('practice.js', function () {
 
 	describe('favoriteThings (part 3)', function () {
 		it('food should be "Lettuce"', function () {
-			expect(favoriteThings.food).toBe('Lettuce');
+			expect(favoriteThings.food).toBe('Chicken Nuggets');
 		})
 		it('book should be "50 Shades of Gray"', function () {
-			expect(favoriteThings.book).toBe('50 Shades of Gray');
+			expect(favoriteThings.book).toBe('Harry Potter');
 		})
 	})
 
