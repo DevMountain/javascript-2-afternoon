@@ -54,7 +54,7 @@ describe('practice.js', function () {
 	})
 
 	describe('favoriteThings (part 3)', function () {
-		it('food should be "Lettuce"', function () {
+		it('food should be "Chicken Nuggets"', function () {
 			expect(favoriteThings.food).toBe('Chicken Nuggets');
 		})
 		it('book should be "Harry Potter"', function () {
