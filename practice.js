@@ -7,7 +7,7 @@
 
 
 
-  
+
 
 
 //NEXT PROBLEM
@@ -97,6 +97,16 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
+
+
+
+
+
+// =============================================
+// =============================================
+// EXTRA PRACTICE PROBLEMS BELOW
+// =============================================
+// =============================================
 
 
 
