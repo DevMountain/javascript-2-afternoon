@@ -240,9 +240,9 @@ methodCollection.logHello = () => console.log('hello');
   //Code Here
 function makePerson(name, birthday, ssn) {
   return {
-    name,
-    birthday,
-    ssn
+    name: name,
+    birthday: birthday,
+    ssn: ssn
   }
 }
 
@@ -256,9 +256,9 @@ function makePerson(name, birthday, ssn) {
   //Code Here
 function makeCard(cardNumber, expirationDate, securityCode) {
   return {
-    cardNumber,
-    expirationDate,
-    securityCode
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
   }
 }
 
@@ -273,6 +273,13 @@ function makeCard(cardNumber, expirationDate, securityCode) {
 */
 
   //Code Here
-function bindCard(person, creditcard) {
-  return Object.assign({}, person, creditcard)
+function bindCard(person, creditCard) {
+  return {
+    name: person.name,
+    birthday: person.birthday,
+    ssn: person.ssn,
+    cardNumber: creditCard.cardNumber,
+    expirationDate: creditCard.expirationDate,
+    securityCode: creditCard.securityCode
+  }
 }
