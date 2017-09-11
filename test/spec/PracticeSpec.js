@@ -87,57 +87,6 @@ describe('practice.js', function () {
 
 	})
 
-	// describe('alsoMe', function () {
-	// 	it('should exist', function () {
-	// 		expect(alsoMe).toBeDefined();
-	// 	})
-	// 	it('should have the following properties: name, age, height, gender, married, eyeColor, hairColor', function () {
-	// 		expect(alsoMe.hasOwnProperty('name')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('age')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('height')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('gender')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('married')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('eyeColor')).toBe(true);
-	// 		expect(alsoMe.hasOwnProperty('hairColor')).toBe(true);
-	// 	})
-	// })
-
-	// describe('album', function () {
-	// 	it('should exist', function () {
-	// 		expect(album).toBeDefined();
-	// 	})
-	// 	it('should have 5 keys', function () {
-	// 		var numberOfKeys = Object.keys(album).length;
-	// 		expect(numberOfKeys).toBe(5);
-	// 	})
-	// })
-
-	// describe('states', function () {
-	// 	it('should exist', function () {
-	// 		expect(states).toBeDefined();
-	// 	})
-	// 	it('should have 5 keys', function () {
-	// 		var numberOfKeys = Object.keys(states).length;
-	// 		expect(numberOfKeys).toBe(5);
-	// 	})
-	// })
-
-	// describe('user1', function () {
-	// 	it('should have all truthy values', function () {
-	// 		var isAllTruthy = true;
-	// 		for (key in user1) {
-	// 			if (!user1[key]) {
-	// 				isAllTruthy = false;
-	// 			}
-	// 		}
-	// 		expect(isAllTruthy).toBe(true);
-	// 	})
-	// 	it('should have 3 keys', function () {
-	// 		var numberOfKeys = Object.keys(user1).length;
-	// 		expect(numberOfKeys).toBe(3);
-	// 	})
-	// })
-
 	describe('user', function () {
 		it('name should be "Tyler S. McGinnis" and email should be "tyler.mcginnis@devmounta.in" ', function () {
 			expect(user.name).toBe('Tyler S. McGinnis');
