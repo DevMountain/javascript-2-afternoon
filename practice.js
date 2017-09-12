@@ -1,4 +1,7 @@
-//Once you complete a problem, open up Chrome and check the answer in the console.
+//Once you complete a problem, open SpecRunner.html in Chrome and check to for failures.
+//Note: The default display will only show failed specs (tests), click "Spec List" to see all the conditions checked.
+//       * Passed specs will be in black, failed will be in red.
+//       * Refresh the page to rerun all specs, or click a spec to run it and its children (if any)
 
 
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
