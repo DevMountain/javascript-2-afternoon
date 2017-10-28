@@ -8,7 +8,7 @@ Object Practice
 
 ## Directions
 - Fork this repo, clone your fork, then open practice.js.
-- Your goal is to completed the first **4** problems. If you complete all afternoon work early, complete the rest of these practice problems.
+- Your goal is to complete the first **4** problems. If you complete all afternoon work early, complete the rest of these practice problems.
 - *COMMIT AND PUSH YOUR CODE OFTEN!*
 
 ## Contributions
