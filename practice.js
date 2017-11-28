@@ -55,7 +55,7 @@ add a 'firstPocket' key (or property) to backPack, using 'item'.
 Set the value of that key to 'chapstick'.
 
 Using dot notation, add another key (or property) to your backPack object
-that is named color, with the value being the color of your backpack. 
+that is named color, with the value being the color of your backPack. 
 */
 
   //Code here
