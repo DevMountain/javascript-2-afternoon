@@ -60,17 +60,19 @@ that is named color, with the value being the color of your backpack.
 */
 
   //Code here
+var backPack = {};
+var item = "firstPocket";
+backPack[item] = "chapstick";
 
 
-
-
+backPack.color = "orange";
 
 
 //After you do the above, alert your entire backPack object.
 
   //Code here
 
- 
+ alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -79,7 +81,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-
+console.log(backPack)
 
 
 
