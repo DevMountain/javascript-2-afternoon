@@ -8,7 +8,8 @@
 
   //Code here
 
-
+var me = {name:"Jordan",age:29};
+alert(me.name);
 
 
 
