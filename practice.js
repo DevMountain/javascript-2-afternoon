@@ -100,7 +100,18 @@ var user2 = {
 
 
 
-////////// EXTRA PRACTICE PROBLEMS BELOW //////////
+
+
+
+
+/////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
+////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
+
+
+
+
+
+
 
 ////////// PROBLEM 5 //////////
 
