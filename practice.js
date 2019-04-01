@@ -22,7 +22,7 @@
 
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
-  Have the values to those keys be your favorite thing in that category.
+  Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
 //Code here
@@ -30,7 +30,8 @@
 
 
 /*
-  After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
+  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
+  and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
@@ -38,7 +39,8 @@
 
 
 /*
-  Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
+  and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
@@ -92,7 +94,7 @@ var user2 = {
 
 /* 
   Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
+  name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'. 
   Make that change without modifying the original object code above.
 */
 
